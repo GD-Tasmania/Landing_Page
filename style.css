@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portafolio{
+    width: 100%;
+    height: 100%;
+    background-color: #cb2222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+header{
+    width: 85%;
+    height: 30%;
+    margin: 10px;
+    background-color: #d3c6b3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+.principal{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 24px;
+    font-style: oblique;
+    margin: 10px;
+    width: 50%;
+    height: 60%;
+}
+.informacion{
+    font-size: 20px;
+    margin: 5px;
+    width: 50%;
+    height: 60%;
+}
+#habilidades{
+    font-size: 22px;
+    margin-top: 30px;
+}
+.informacion2{
+    width: 80%;
+    font-size: 18px;
+    margin: 7px;
+    color: black;
+    font-style: oblique;
+}
+.img{
+    width: 40%;
+    height: 30%;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#miImg{
+    width: 35%;
+    height: 35%;
+    margin: 5px;
+}
+
+main{
+    width: 85%;
+    height: 50%;
+    background-color: #d5d7d7;
+    border-radius: 15px;
+}
+.espacio{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 28% 72%;
+    grid-template-rows: 100%;
+    border-right: 200px;
+    background-color: #4f5253;
+}
+.cuadro{
+    height: 100%;
+    background-color: #d3c6b3;
+}
+.parte1{
+    height: 100%;
+    background-color: #d3c6b3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+}
+#c1{
+    background-color: #4f5253;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 30% 30%;
+    justify-content: center;
+    align-content: center;
+    margin-right: 2px;
+}
+#c1-p2{
+    grid-row: 2/4;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte2{
+    background-color: #d3c6b3;
+    margin: 1px 5px 60px 5px;
+}
+#c2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 32% 34% 32%;
+    grid-template-rows: 46% 27% 27%;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-right: 10px;
+}
+#c1-p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#c2-p1{
+    width: 100%;
+    height: 35vh;
+    display: grid;
+    grid-column: 1/4;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin-top: 6px;
+}
+.parte2-1{
+    background-color: #d3c6b3;
+    font-size: 20px;
+    font-style: oblique;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#c2-p1-p{
+    font-size: 23px;
+}
+#c2-p1-p1{
+    grid-column: 1/4;
+}
+#c2-p1-p2{
+    grid-row: 4/4;
+}
+#c2-p1-p3{
+    grid-row: 4/4;
+}
+#c2-p1-p4{
+    grid-row: 4/4;
+}
+
+#c2-p2{
+    grid-row: 2/4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#c2-p3{
+    grid-row: 2/4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#c2-p4{
+    grid-row: 2/4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: 100%;
+    height: 90%;
+    border: 1.4px solid #000000;
+    border-radius: 4px;
+}
+Footer{
+    width: 85%;
+    height: 50px;
+    background-color: #d3c6b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #d3c6b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+}
+.footer-p1{
+    font-size: 20px;
+    color: #d3c6b3;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
